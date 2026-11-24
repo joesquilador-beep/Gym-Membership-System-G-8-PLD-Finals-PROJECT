@@ -2,15 +2,6 @@
 #include <string>
 #include <windows.h>
 using namespace std;
-
-/*GOIZZZ HALOS LAHAT PALANG YAN ON THE FRONT END LAGYAN NALANG NG ARRAYS AS DATABASE KAC 
- DI PA TAU TINUTURUAN NG STRUCTURES,FSTREAM, SSTREAM, YAN KAC KAYANG GUMAWA NG PERMANENT
- DATABASE PERO LIMITED TAU SA ARRAYS SO LAHAT NA, NAINPUT NA AFTER I CLOSE, LAHAT NA DATA
- DITO SA CODE MAWAWALA TT. AFTER NYU MATAPOS UNG SINASABI NETO I CHANGE NYU NALANG OR IREMOVE
- NALANG TONG COMMENT NA TO.
-                       /\
-*/
-
 // GROUP 8 MEMBERS:
 // 1. Genavia, Jhon Wilson M.
 // 2. Esquilador, Jose Miguel T.
@@ -117,9 +108,9 @@ menu:
     }
     cout << "\033[96m";
     cout << R"(
-╔╦╗╔═╗╔╗╔╦ ╦
-║║║║╣ ║║║║ ║
-╩ ╩╚═╝╝╚╝╚═╝)" << endl;
+            ╔╦╗╔═╗╔╗╔╦ ╦
+            ║║║║╣ ║║║║ ║
+            ╩ ╩╚═╝╝╚╝╚═╝)" << endl;
     cout << "\033[0m";
     short choiceM;
 
