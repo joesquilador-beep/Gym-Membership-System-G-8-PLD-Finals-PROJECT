@@ -66,3 +66,9 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Build directory
+build/
+
+# Visual Studio temporary files
+.vs/
