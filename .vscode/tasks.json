@@ -1,0 +1,23 @@
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "MSVC: Build Active C++ File",
+            "type": "shell",
+            "command": "if not exist \"build\" mkdir \"build\" && call \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Auxiliary\\Build\\vcvars64.bat\" >nul && cl.exe /Zi /FS /EHsc /nologo /Fo\"build\\\\\" /Fd\"build\\\\${fileBasenameNoExtension}.pdb\" /Fe\"build\\\\${fileBasenameNoExtension}.exe\" \"${file}\" && echo BUILD SUCCESSFUL",
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "shell": {
+                    "executable": "C:\\Windows\\System32\\cmd.exe",
+                    "args": ["/d", "/c"]
+                }
+            },
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
